@@ -1,0 +1,35 @@
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.com.apple.metadata:*
+
+# Temporary/backup files (general)
+*~
+*.bak
+*.tmp
+*.old
+*.swp
+*.swo
+*.swn
+*.asd
+*.orig
+
+# Word/Excel temp files
+~$*
+*.wbk         # Word backup
+*.xlk         # Excel backup
+*.tmp         # Office temp
+*.lock        # Office/other file lock indicators
+
+# Affinity autosave/backup (safe to ignore)
+*.autosave
+*.afdesign-preview
+*.afphoto-preview
+*.afpub-preview
