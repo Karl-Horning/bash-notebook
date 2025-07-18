@@ -13,6 +13,8 @@
   - [⚠️ Notes \& Tips](#️-notes--tips)
   - [📂 Example Folder Structure](#-example-folder-structure)
 
+---
+
 ## 🤓 Introduction
 
 A Bash script to flatten the contents of **nested subdirectories** within each **immediate subfolder** of a specified directory. Files are moved up one level, and empty directories are removed, but the top-level folder structure is preserved.

@@ -15,6 +15,8 @@
     - [Before](#before)
     - [After](#after)
 
+---
+
 ## 🤓 Introduction
 
 A Bash script to recursively flatten all nested subfolders within a specified directory, moving **all files** to the root of that directory and removing any empty folders. Useful for cleaning up deeply nested folder structures.

@@ -14,6 +14,8 @@
   - [🪜 Next Steps](#-next-steps)
   - [🧡 Author’s Note](#-authors-note)
 
+---
+
 ## 🤓 Introduction
 
 A minimalist Bash script that prints "hello world" to the terminal.
