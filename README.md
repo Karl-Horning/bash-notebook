@@ -1,10 +1,12 @@
 # Bash Notebook Cheatsheet
 
+---
+
 ## 📖 Table of Contents
 
 - [Bash Notebook Cheatsheet](#bash-notebook-cheatsheet)
   - [📖 Table of Contents](#-table-of-contents)
-  - [🤓 Introduction](#-introduction)
+  - [🤓 Overview](#-overview)
   - [📁 Basic Navigation](#-basic-navigation)
   - [📄 File \& Directory Operations](#-file--directory-operations)
   - [⚙️ Variables](#️-variables)
@@ -15,8 +17,12 @@
   - [🧹 Useful One-Liners](#-useful-one-liners)
   - [🧪 Exit Codes](#-exit-codes)
   - [🔗 Script Template](#-script-template)
+  - [📄 Licence](#-licence)
+  - [👤 Author](#-author)
 
-## 🤓 Introduction
+---
+
+## 🤓 Overview
 
 A collection of handy Bash syntax, commands, and examples. For learning, quick reference, and scripting!
 
@@ -148,5 +154,13 @@ chmod +x myscript.sh
 ```
 
 ---
+
+## 📄 Licence
+
+MIT © 2025 Karl Horning
+
+---
+
+## 👤 Author
 
 Made with ❤️ by [Karl Horning](https://github.com/Karl-Horning)
