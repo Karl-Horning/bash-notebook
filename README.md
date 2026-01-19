@@ -2,33 +2,33 @@
 
 ---
 
-## 📖 Table of Contents
+## Table of Contents
 
 - [Bash Notebook Cheatsheet](#bash-notebook-cheatsheet)
-  - [📖 Table of Contents](#-table-of-contents)
-  - [🤓 Overview](#-overview)
-  - [📁 Basic Navigation](#-basic-navigation)
-  - [📄 File \& Directory Operations](#-file--directory-operations)
-  - [⚙️ Variables](#️-variables)
-  - [🧠 Conditionals](#-conditionals)
-  - [🔁 Loops](#-loops)
-  - [📦 Functions](#-functions)
-  - [🧪 Test Operators](#-test-operators)
-  - [🧹 Useful One-Liners](#-useful-one-liners)
-  - [🧪 Exit Codes](#-exit-codes)
-  - [🔗 Script Template](#-script-template)
-  - [📄 Licence](#-licence)
-  - [👤 Author](#-author)
+  - [Table of Contents](#table-of-contents)
+  - [Overview](#overview)
+  - [Basic Navigation](#basic-navigation)
+  - [File \& Directory Operations](#file--directory-operations)
+  - [Variables](#variables)
+  - [Conditionals](#conditionals)
+  - [Loops](#loops)
+  - [Functions](#functions)
+  - [Test Operators](#test-operators)
+  - [Useful One-Liners](#useful-one-liners)
+  - [Exit Codes](#exit-codes)
+  - [Script Template](#script-template)
+  - [Licence](#licence)
+  - [Author](#author)
 
 ---
 
-## 🤓 Overview
+## Overview
 
 A collection of handy Bash syntax, commands, and examples. For learning, quick reference, and scripting!
 
 ---
 
-## 📁 Basic Navigation
+## Basic Navigation
 
 ```bash
 pwd              # Print working directory
@@ -40,7 +40,7 @@ cd ..            # Go up one directory
 
 ---
 
-## 📄 File & Directory Operations
+## File & Directory Operations
 
 ```bash
 touch file.txt                 # Create an empty file
@@ -53,7 +53,7 @@ mv old.txt new.txt             # Rename or move file
 
 ---
 
-## ⚙️ Variables
+## Variables
 
 ```bash
 name="Karl"
@@ -62,7 +62,7 @@ echo "Hello $name"
 
 ---
 
-## 🧠 Conditionals
+## Conditionals
 
 ```bash
 if [ "$name" == "Karl" ]; then
@@ -74,7 +74,7 @@ fi
 
 ---
 
-## 🔁 Loops
+## Loops
 
 ```bash
 # For loop
@@ -92,7 +92,7 @@ done
 
 ---
 
-## 📦 Functions
+## Functions
 
 ```bash
 greet() {
@@ -104,7 +104,7 @@ greet "Karl"
 
 ---
 
-## 🧪 Test Operators
+## Test Operators
 
 ```bash
 [ -f file.txt ]     # File exists
@@ -115,7 +115,7 @@ greet "Karl"
 
 ---
 
-## 🧹 Useful One-Liners
+## Useful One-Liners
 
 ```bash
 grep "word" file.txt           # Search for "word"
@@ -128,7 +128,7 @@ tail -f logs.txt               # Follow file live
 
 ---
 
-## 🧪 Exit Codes
+## Exit Codes
 
 ```bash
 echo $?   # Shows the exit code of the last command
@@ -136,7 +136,7 @@ echo $?   # Shows the exit code of the last command
 
 ---
 
-## 🔗 Script Template
+## Script Template
 
 ```bash
 #!/bin/bash
@@ -155,12 +155,12 @@ chmod +x myscript.sh
 
 ---
 
-## 📄 Licence
+## Licence
 
 MIT © 2025 Karl Horning
 
 ---
 
-## 👤 Author
+## Author
 
 Made with ❤️ by [Karl Horning](https://github.com/Karl-Horning)

@@ -1,29 +1,29 @@
-# 🧼 `clean-filenames`
+# `clean-filenames`
 
-## 📖 Table of Contents
+## Table of Contents
 
-- [🧼 `clean-filenames`](#-clean-filenames)
-  - [📖 Table of Contents](#-table-of-contents)
-  - [🤓 Introduction](#-introduction)
-  - [📌 What It Does](#-what-it-does)
-  - [💡 Example](#-example)
+- [`clean-filenames`](#clean-filenames)
+  - [Table of Contents](#table-of-contents)
+  - [Introduction](#introduction)
+  - [What It Does](#what-it-does)
+  - [Example](#example)
     - [Before](#before)
     - [After](#after)
-  - [🛠️ Usage](#️-usage)
+  - [Usage](#usage)
     - [1. Set the target directory](#1-set-the-target-directory)
     - [2. Make the script executable](#2-make-the-script-executable)
     - [3. Run it](#3-run-it)
-  - [⚠️ Notes \& Tips](#️-notes--tips)
+  - [Notes \& Tips](#notes--tips)
 
 ---
 
-## 🤓 Introduction
+## Introduction
 
 A Bash script to tidy up file names in a specified folder by removing **leading, trailing**, and **excess internal spaces**. Helps ensure consistent, clean naming — especially useful when dealing with files imported from inconsistent sources (like downloaded archives or shared drives).
 
 ---
 
-## 📌 What It Does
+## What It Does
 
 Given a target directory (default: `/Users/$USER/flattenFolders`), this script:
 
@@ -38,7 +38,7 @@ Given a target directory (default: `/Users/$USER/flattenFolders`), this script:
 
 ---
 
-## 💡 Example
+## Example
 
 ### Before
 
@@ -58,7 +58,7 @@ Given a target directory (default: `/Users/$USER/flattenFolders`), this script:
 
 ---
 
-## 🛠️ Usage
+## Usage
 
 ### 1. Set the target directory
 
@@ -88,7 +88,7 @@ chmod +x clean-filenames
 
 ---
 
-## ⚠️ Notes & Tips
+## Notes & Tips
 
 - This script only works on **files** — it ignores directories.
 - It only runs on the **immediate contents** of the folder (non-recursive).

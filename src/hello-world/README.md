@@ -1,29 +1,29 @@
-# 👋 `hello-world`
+# `hello-world`
 
-## 📖 Table of Contents
+## Table of Contents
 
-- [👋 `hello-world`](#-hello-world)
-  - [📖 Table of Contents](#-table-of-contents)
-  - [🤓 Introduction](#-introduction)
-  - [📌 What It Does](#-what-it-does)
-  - [🛠️ Usage](#️-usage)
+- [`hello-world`](#hello-world)
+  - [Table of Contents](#table-of-contents)
+  - [Introduction](#introduction)
+  - [What It Does](#what-it-does)
+  - [Usage](#usage)
     - [1. Make it executable](#1-make-it-executable)
     - [2. Run it](#2-run-it)
     - [Output](#output)
-  - [🧪 Why This Exists](#-why-this-exists)
+  - [Why This Exists](#why-this-exists)
   - [🪜 Next Steps](#-next-steps)
-  - [🧡 Author’s Note](#-authors-note)
+  - [Author’s Note](#authors-note)
 
 ---
 
-## 🤓 Introduction
+## Introduction
 
 A minimalist Bash script that prints "hello world" to the terminal.
 Because every journey starts with a single echo.
 
 ---
 
-## 📌 What It Does
+## What It Does
 
 This script does exactly one thing:
 
@@ -35,7 +35,7 @@ That’s it. Nothing more. Nothing less.
 
 ---
 
-## 🛠️ Usage
+## Usage
 
 ### 1. Make it executable
 
@@ -57,7 +57,7 @@ hello world
 
 ---
 
-## 🧪 Why This Exists
+## Why This Exists
 
 This is the traditional starting point for anyone learning Bash (or any language, really).
 It proves:
@@ -83,7 +83,7 @@ But for now, you’ve conquered the hardest step: starting.
 
 ---
 
-## 🧡 Author’s Note
+## Author’s Note
 
 This script may be small, but it's mighty in spirit.
 

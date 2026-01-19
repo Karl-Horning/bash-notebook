@@ -1,29 +1,29 @@
-# 📁 `flatten-to-root`
+# `flatten-to-root`
 
-## 📖 Table of Contents
+## Table of Contents
 
-- [📁 `flatten-to-root`](#-flatten-to-root)
-  - [📖 Table of Contents](#-table-of-contents)
-  - [🤓 Introduction](#-introduction)
-  - [📌 What It Does](#-what-it-does)
-  - [🛠️ Usage](#️-usage)
+- [`flatten-to-root`](#flatten-to-root)
+  - [Table of Contents](#table-of-contents)
+  - [Introduction](#introduction)
+  - [What It Does](#what-it-does)
+  - [Usage](#usage)
     - [1. Set the target directory](#1-set-the-target-directory)
     - [2. Make the script executable](#2-make-the-script-executable)
     - [3. Run the script](#3-run-the-script)
-  - [⚠️ Notes \& Tips](#️-notes--tips)
-  - [📂 Example Folder Structure](#-example-folder-structure)
+  - [Notes \& Tips](#notes--tips)
+  - [Example Folder Structure](#example-folder-structure)
     - [Before](#before)
     - [After](#after)
 
 ---
 
-## 🤓 Introduction
+## Introduction
 
 A Bash script to recursively flatten all nested subfolders within a specified directory, moving **all files** to the root of that directory and removing any empty folders. Useful for cleaning up deeply nested folder structures.
 
 ---
 
-## 📌 What It Does
+## What It Does
 
 Given a base directory (default: `/Users/$USER/flattenFolders`), the script:
 
@@ -35,7 +35,7 @@ This results in a single flat folder containing all files, with no subdirectorie
 
 ---
 
-## 🛠️ Usage
+## Usage
 
 ### 1. Set the target directory
 
@@ -65,7 +65,7 @@ chmod +x flatten-to-root
 
 ---
 
-## ⚠️ Notes & Tips
+## Notes & Tips
 
 - Files are moved using `mv -i`, which **prompts before overwriting** existing files.
 - Make a backup if file overwriting could be a risk.
@@ -73,7 +73,7 @@ chmod +x flatten-to-root
 
 ---
 
-## 📂 Example Folder Structure
+## Example Folder Structure
 
 ### Before
 
