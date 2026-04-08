@@ -2,26 +2,21 @@
 
 ## Table of Contents
 
-- [`clean-filenames`](#clean-filenames)
-  - [Table of Contents](#table-of-contents)
-  - [Introduction](#introduction)
-  - [What It Does](#what-it-does)
-  - [Example](#example)
-    - [Before](#before)
-    - [After](#after)
-  - [Usage](#usage)
-    - [1. Set the target directory](#1-set-the-target-directory)
-    - [2. Make the script executable](#2-make-the-script-executable)
-    - [3. Run it](#3-run-it)
-  - [Notes \& Tips](#notes--tips)
-
----
+- [Table of Contents](#table-of-contents)
+- [Introduction](#introduction)
+- [What It Does](#what-it-does)
+- [Example](#example)
+  - [Before](#before)
+  - [After](#after)
+- [Usage](#usage)
+  - [1. Set the target directory](#1-set-the-target-directory)
+  - [2. Make the script executable](#2-make-the-script-executable)
+  - [3. Run it](#3-run-it)
+- [Notes \& Tips](#notes--tips)
 
 ## Introduction
 
 A Bash script to tidy up file names in a specified folder by removing **leading, trailing**, and **excess internal spaces**. Helps ensure consistent, clean naming — especially useful when dealing with files imported from inconsistent sources (like downloaded archives or shared drives).
-
----
 
 ## What It Does
 
@@ -35,8 +30,6 @@ Given a target directory (default: `/Users/$USER/flattenFolders`), this script:
    - Collapse **multiple spaces** into a single space
 4. Renames each file only if a change is needed.
 5. Prints `"Finished renaming files!"` when done.
-
----
 
 ## Example
 
@@ -55,8 +48,6 @@ Given a target directory (default: `/Users/$USER/flattenFolders`), this script:
 "notes.txt"
 "presentation v1.pptx"
 ```
-
----
 
 ## Usage
 
@@ -86,14 +77,9 @@ chmod +x clean-filenames
 ./clean-filenames
 ```
 
----
-
 ## Notes & Tips
 
 - This script only works on **files** — it ignores directories.
 - It only runs on the **immediate contents** of the folder (non-recursive).
 - Filenames containing special characters (like quotes or `*`) may require additional handling for full robustness.
-
----
-
 Made with ❤️ by [Karl Horning](https://github.com/Karl-Horning)

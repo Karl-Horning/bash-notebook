@@ -2,24 +2,19 @@
 
 ## Table of Contents
 
-- [`flatten-subfolders`](#flatten-subfolders)
-  - [Table of Contents](#table-of-contents)
-  - [Introduction](#introduction)
-  - [What It Does](#what-it-does)
-  - [Usage](#usage)
-    - [1. Set the directory to flatten](#1-set-the-directory-to-flatten)
-    - [2. Make the script executable](#2-make-the-script-executable)
-    - [3. Run the script](#3-run-the-script)
-  - [Notes \& Tips](#notes--tips)
-  - [Example Folder Structure](#example-folder-structure)
-
----
+- [Table of Contents](#table-of-contents)
+- [Introduction](#introduction)
+- [What It Does](#what-it-does)
+- [Usage](#usage)
+  - [1. Set the directory to flatten](#1-set-the-directory-to-flatten)
+  - [2. Make the script executable](#2-make-the-script-executable)
+  - [3. Run the script](#3-run-the-script)
+- [Notes \& Tips](#notes--tips)
+- [Example Folder Structure](#example-folder-structure)
 
 ## Introduction
 
 A Bash script to flatten the contents of **nested subdirectories** within each **immediate subfolder** of a specified directory. Files are moved up one level, and empty directories are removed, but the top-level folder structure is preserved.
-
----
 
 ## What It Does
 
@@ -50,8 +45,6 @@ flattenFolders/
 │   └── file2.txt
 ```
 
----
-
 ## Usage
 
 ### 1. Set the directory to flatten
@@ -80,15 +73,11 @@ chmod +x flatten-subfolders
 ./flatten-subfolders
 ```
 
----
-
 ## Notes & Tips
 
 - Files are moved using `mv -i`, which prompts before overwriting if a file with the same name exists.
 - Make sure to back up any important files in case of accidental overwrites.
 - The script **does not** delete files — only moves them and deletes **empty** folders.
-
----
 
 ## Example Folder Structure
 
@@ -111,7 +100,5 @@ flattenFolders/
     ├── todo.txt
     └── draft1.md
 ```
-
----
 
 Made with ❤️ by [Karl Horning](https://github.com/Karl-Horning)

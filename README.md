@@ -1,32 +1,24 @@
 # Bash Notebook Cheatsheet
 
----
-
 ## Table of Contents
 
-- [Bash Notebook Cheatsheet](#bash-notebook-cheatsheet)
-  - [Table of Contents](#table-of-contents)
-  - [Overview](#overview)
-  - [Basic Navigation](#basic-navigation)
-  - [File \& Directory Operations](#file--directory-operations)
-  - [Variables](#variables)
-  - [Conditionals](#conditionals)
-  - [Loops](#loops)
-  - [Functions](#functions)
-  - [Test Operators](#test-operators)
-  - [Useful One-Liners](#useful-one-liners)
-  - [Exit Codes](#exit-codes)
-  - [Script Template](#script-template)
-  - [Licence](#licence)
-  - [Author](#author)
-
----
+- [Overview](#overview)
+- [Basic Navigation](#basic-navigation)
+- [File \& Directory Operations](#file--directory-operations)
+- [Variables](#variables)
+- [Conditionals](#conditionals)
+- [Loops](#loops)
+- [Functions](#functions)
+- [Test Operators](#test-operators)
+- [Useful One-Liners](#useful-one-liners)
+- [Exit Codes](#exit-codes)
+- [Script Template](#script-template)
+- [Licence](#licence)
+- [Author](#author)
 
 ## Overview
 
 A collection of handy Bash syntax, commands, and examples. For learning, quick reference, and scripting!
-
----
 
 ## Basic Navigation
 
@@ -37,8 +29,6 @@ ls -la           # Long format with hidden files
 cd foldername    # Change directory
 cd ..            # Go up one directory
 ```
-
----
 
 ## File & Directory Operations
 
@@ -51,16 +41,12 @@ cp file.txt backup.txt         # Copy file
 mv old.txt new.txt             # Rename or move file
 ```
 
----
-
 ## Variables
 
 ```bash
 name="Karl"
 echo "Hello $name"
 ```
-
----
 
 ## Conditionals
 
@@ -71,8 +57,6 @@ else
   echo "Who are you?"
 fi
 ```
-
----
 
 ## Loops
 
@@ -90,8 +74,6 @@ while [ $count -le 5 ]; do
 done
 ```
 
----
-
 ## Functions
 
 ```bash
@@ -102,8 +84,6 @@ greet() {
 greet "Karl"
 ```
 
----
-
 ## Test Operators
 
 ```bash
@@ -112,8 +92,6 @@ greet "Karl"
 [ -z "$var" ]       # String is empty
 [ "$a" -eq "$b" ]   # Numbers equal
 ```
-
----
 
 ## Useful One-Liners
 
@@ -126,15 +104,11 @@ head -n 10 file.txt            # First 10 lines
 tail -f logs.txt               # Follow file live
 ```
 
----
-
 ## Exit Codes
 
 ```bash
 echo $?   # Shows the exit code of the last command
 ```
-
----
 
 ## Script Template
 
@@ -153,13 +127,9 @@ chmod +x myscript.sh
 ./myscript.sh Karl
 ```
 
----
-
 ## Licence
 
 MIT © 2025 Karl Horning
-
----
 
 ## Author
 
