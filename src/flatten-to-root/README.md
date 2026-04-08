@@ -2,26 +2,21 @@
 
 ## Table of Contents
 
-- [`flatten-to-root`](#flatten-to-root)
-  - [Table of Contents](#table-of-contents)
-  - [Introduction](#introduction)
-  - [What It Does](#what-it-does)
-  - [Usage](#usage)
-    - [1. Set the target directory](#1-set-the-target-directory)
-    - [2. Make the script executable](#2-make-the-script-executable)
-    - [3. Run the script](#3-run-the-script)
-  - [Notes \& Tips](#notes--tips)
-  - [Example Folder Structure](#example-folder-structure)
-    - [Before](#before)
-    - [After](#after)
-
----
+- [Table of Contents](#table-of-contents)
+- [Introduction](#introduction)
+- [What It Does](#what-it-does)
+- [Usage](#usage)
+  - [1. Set the target directory](#1-set-the-target-directory)
+  - [2. Make the script executable](#2-make-the-script-executable)
+  - [3. Run the script](#3-run-the-script)
+- [Notes \& Tips](#notes--tips)
+- [Example Folder Structure](#example-folder-structure)
+  - [Before](#before)
+  - [After](#after)
 
 ## Introduction
 
 A Bash script to recursively flatten all nested subfolders within a specified directory, moving **all files** to the root of that directory and removing any empty folders. Useful for cleaning up deeply nested folder structures.
-
----
 
 ## What It Does
 
@@ -32,8 +27,6 @@ Given a base directory (default: `/Users/$USER/flattenFolders`), the script:
 3. **Removes any empty directories** after flattening is complete.
 
 This results in a single flat folder containing all files, with no subdirectories left.
-
----
 
 ## Usage
 
@@ -63,15 +56,11 @@ chmod +x flatten-to-root
 ./flatten-to-root
 ```
 
----
-
 ## Notes & Tips
 
 - Files are moved using `mv -i`, which **prompts before overwriting** existing files.
 - Make a backup if file overwriting could be a risk.
 - The script assumes you are happy to delete all empty directories once files are moved.
-
----
 
 ## Example Folder Structure
 
@@ -98,7 +87,4 @@ flattenFolders/
 ```
 
 All directories `A`, `B`, `C`, and `subfolder` are removed.
-
----
-
 Made with ❤️ by [Karl Horning](https://github.com/Karl-Horning)
