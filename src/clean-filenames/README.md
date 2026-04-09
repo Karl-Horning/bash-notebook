@@ -1,39 +1,14 @@
 # `clean-filenames`
 
-## Table of Contents
+A Bash script to tidy up filenames in a folder by removing **leading, trailing**, and **excess internal spaces**.
 
-- [Table of Contents](#table-of-contents)
-- [Introduction](#introduction)
-- [What It Does](#what-it-does)
-- [Example](#example)
-  - [Before](#before)
-  - [After](#after)
-- [Usage](#usage)
-  - [1. Set the target directory](#1-set-the-target-directory)
-  - [2. Make the script executable](#2-make-the-script-executable)
-  - [3. Run it](#3-run-it)
-- [Notes \& Tips](#notes--tips)
+## What it does
 
-## Introduction
-
-A Bash script to tidy up file names in a specified folder by removing **leading, trailing**, and **excess internal spaces**. Helps ensure consistent, clean naming — especially useful when dealing with files imported from inconsistent sources (like downloaded archives or shared drives).
-
-## What It Does
-
-Given a target directory (default: `/Users/$USER/flattenFolders`), this script:
-
-1. Checks if the directory exists.
-2. Iterates through each **file** in the folder (non-recursively).
-3. Uses `sed` to:
-
-   - Trim **leading** and **trailing** spaces
-   - Collapse **multiple spaces** into a single space
-4. Renames each file only if a change is needed.
-5. Prints `"Finished renaming files!"` when done.
+Given a target directory (default: `/Users/$USER/flattenFolders`), the script iterates over each file (non-recursively), uses `sed` to strip unwanted whitespace, and renames each file only if a change is needed.
 
 ## Example
 
-### Before
+Before:
 
 ```text
 "  report   final   .txt"
@@ -41,7 +16,7 @@ Given a target directory (default: `/Users/$USER/flattenFolders`), this script:
 "presentation   v1.pptx"
 ```
 
-### After
+After:
 
 ```text
 "report final .txt"
@@ -68,18 +43,17 @@ dir_to_flatten="/path/to/your/folder"
 ### 2. Make the script executable
 
 ```bash
-chmod +x clean-filenames
+chmod +x clean-filenames.sh
 ```
 
 ### 3. Run it
 
 ```bash
-./clean-filenames
+./clean-filenames.sh
 ```
 
-## Notes & Tips
+## Notes
 
-- This script only works on **files** — it ignores directories.
-- It only runs on the **immediate contents** of the folder (non-recursive).
-- Filenames containing special characters (like quotes or `*`) may require additional handling for full robustness.
-Made with ❤️ by [Karl Horning](https://github.com/Karl-Horning)
+- Only processes files — directories are ignored.
+- Non-recursive: only the immediate contents of the folder are affected.
+- Filenames with special characters (quotes, `*`) may need additional handling.
