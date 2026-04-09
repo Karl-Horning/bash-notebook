@@ -120,3 +120,7 @@ Make it executable:
 chmod +x myscript.sh
 ./myscript.sh Karl
 ```
+
+## Licence
+
+MIT © 2025 [Karl Horning](https://github.com/Karl-Horning)
