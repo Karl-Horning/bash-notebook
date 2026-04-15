@@ -16,6 +16,6 @@ Personal bash scripts for file management, plus a [bash cheatsheet](./CHEATSHEET
 
 The flatten scripts target `/Users/$USER/flattenFolders` by default. To change this, edit the `dir_to_flatten` variable at the top of the script.
 
-## Licence
+## License
 
-MIT © 2025 [Karl Horning](https://github.com/Karl-Horning)
+Released under the [MIT License](./LICENSE) by [Karl Horning](https://github.com/Karl-Horning).
